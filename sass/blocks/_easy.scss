@@ -1,0 +1,267 @@
+.page { 
+    margin-top: 50px;
+    width: 800px;
+    height: 450px;
+    background-color: #ffffff;
+    
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:25px 30px;
+        border-bottom: 1px solid rgb(155, 153, 153);
+    }
+
+    &__box__link {
+        padding:25px 30px;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 24px;
+        color: #000000;
+        opacity: 90%;
+        font-family: "Roboto", "Arial", sans-serif;
+    }
+
+    &__img {
+        margin-right: 15px;
+    }
+
+    &__text {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 30px;
+        color: #000;
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+
+    &__texts {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 30px;
+        color: #000000;
+        margin-left: 45px;
+        margin-top: 20px;
+
+        &::before  {
+            text-transform: uppercase;
+            content: "2000-present";
+            display: block;
+            font-size: 15px;
+            line-height: 26px;
+            font-family: "Roboto", "Arial", sans-serif;
+        }
+    }
+
+    &__boxx {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__linkses {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 30px;
+        color: #6BAFF0;
+        margin-left: 45px;
+        margin-top: 20px;
+
+        &:hover {
+            border-bottom: 1px solid #6BAFF0;
+        }
+    }
+
+    &__box__link {
+        text-transform: capitalize;
+    }
+
+    &__textst {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 30px;
+        color: #000;
+        margin-left: 45px;
+        margin-top: 20px;
+
+        &::before  {
+            text-transform: uppercase;
+            content: "1992-1999";
+            display: block;
+            font-size: 15px;
+            line-height: 26px;
+            font-family: "Roboto", "Arial", sans-serif;
+        }
+    }
+
+    &__textsts {
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 30px;
+        color: #000;
+        margin-left: 45px;
+        margin-top: 20px;
+        font-family: "Roboto", "Arial", sans-serif;
+
+        &::before  {
+            text-transform: uppercase;
+            content: "1973-1975";
+            display: block;
+            font-size: 15px;
+            line-height: 26px;
+            font-family: "Roboto", "Arial", sans-serif;
+        }
+    }
+
+    &__box__link {
+        margin-bottom: 10px;
+    }
+
+    &__linksess {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 30px;
+        color: #6BAFF0;
+        margin-left: 45px;
+        margin-top: 20px;
+
+        &:hover {
+            border-bottom: 1px solid #6BAFF0;
+        }
+    }
+
+    &__section__head {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 0;
+        line-height: 24px;
+        color: #000000;
+        opacity: 90%;
+        margin-left: 15px;
+        font-family: "Roboto", "Arial", sans-serif;
+    }
+
+
+    &__section__boxex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__section__list {
+        width: 300px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    &__section__low{
+        width: 275px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+
+    &__section__heading {
+        margin-right: 25px;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        background-color: rgb(228, 227, 227);
+        border: 1px solid rgb(138, 134, 134);
+        border-radius: 50%;
+    }
+
+    &__section__text {
+        // margin-right: 250px;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+
+    &__section__img {
+        border-radius: 50%;
+    }
+    
+
+    &__section__item__active {
+        margin-right: 25px;
+        font-weight: 700;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 20px;
+        padding: 13px 10px;
+        background-color: rgb(228, 227, 227);
+        border: 1px solid rgb(138, 134, 134);
+        border-radius: 50%;
+    }
+
+    &__section__low__active {
+        width: 232px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+
+    &__section__container {
+        margin-left: 10px;
+    }
+
+    &__section__span {
+        font-size: 24px;
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 24px;
+        color: #000;
+        opacity: 90%;
+        margin-left: 15px;
+    }
+
+    &__section__mini__container {
+        display: flex;
+        align-items: center;
+        margin-left: 70px;
+        text-transform: capitalize;
+    }
+
+    &__section__textw {
+        margin-right: 25px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 18px;
+        padding: 5px 10px;
+        background-color: rgb(228, 227, 227);
+        border-radius: 8px;
+    }
+}

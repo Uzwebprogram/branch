@@ -1,0 +1,151 @@
+.right {
+
+    &__box {
+        margin-left: 30px;
+    }
+
+    &__head {
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        opacity: 60%;
+        margin: 0;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-transform: capitalize;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    &__image{ 
+        border-radius: 50%;
+    }
+
+    &__contain {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    &__heading {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        margin-left: 20px;
+        line-height: 24px;
+
+        &::after {
+            content: "Google";
+            display: block;
+            font-size: 20px;
+            font-family: "Roboto", "Arial", sans-serif;
+            opacity: 60%;
+            line-height: 24px;
+        }
+    }
+
+    &__headinge {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        margin-left: 20px;
+        line-height: 24px;
+
+        &::after {
+            content: "Amazon";
+            display: block;
+            font-size: 20px;
+            font-family: "Roboto", "Arial", sans-serif;
+            opacity: 60%;
+            line-height: 24px;
+        }
+    }
+
+    &__headings {
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        margin-left: 20px;
+        line-height: 24px;
+
+        &::after {
+            content: "Aplle";
+            display: block;
+            font-size: 20px;
+            font-family: "Roboto", "Arial", sans-serif;
+            opacity: 60%;
+            line-height: 24px;
+        }
+    }
+
+    &__text {
+        margin: 0;
+    }
+
+    &__headers {
+        font-family: "Roboto", "Arial", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        opacity: 60%;
+        margin: 0;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+    }
+
+    &__imggs {
+        border-radius: 50%;
+    }
+
+    &__imgg {
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+
+    &__imggq {
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    &__uls {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__heed {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 24px;
+        font-weight: 400;
+        font-family: "Roboto", "Arial", sans-serif;
+        margin: 0;
+        line-height: 24px;
+        margin-top: 20px;
+        color: #000;
+        opacity: 90%;
+
+        &::after {
+            content: "Aplle";
+            display: block;
+            font-size: 18px;
+            font-family: "Roboto", "Arial", sans-serif;
+            opacity: 60%;
+            line-height: 24px;
+        }
+    }
+
+}

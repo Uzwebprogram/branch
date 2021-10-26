@@ -1,0 +1,137 @@
+.header {
+    width: 100%;
+    height: 105px;
+    border-bottom: 1px solid rgb(165, 164, 164);
+
+    &__container {
+        width: 1354px;
+        padding: 0 15px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    &__link {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border-right: 1px solid rgb(165, 164, 164);
+    }
+
+    &__img {
+        display: block; 
+        margin-right: 20px;
+    }
+
+    &__boxes {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border-right: 1px solid rgb(165, 164, 164);
+        margin-left: 20px;
+    }
+
+    &__input {
+        padding: 10px 10px;
+        border-radius: 20px;
+        border: 1px solid rgb(158, 157, 157);
+    }
+
+    &__button {
+        position: relative;
+        left: -50px;
+        top: 4px;
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__list__box {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border-right: 1px solid rgb(165, 164, 164);
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        margin-right: 40px;
+        margin-left: 10px;
+        text-transform: capitalize;
+    }
+
+    &__item {
+        margin-left: 30px;
+    }
+
+    &__links {
+        text-decoration: none;
+        color: black;
+        font-size: 24px;
+        font-family: "Roboto", "Arial", sans-serif;
+        opacity: 60%;
+
+        &:hover {
+            transition: all 1s;
+            position: relative;
+            top:-3px;
+        }
+
+        &--active {
+            color: #FF8372;
+            font-size: 24px;
+            font-family: "Roboto", "Arial", sans-serif;
+            text-decoration: none;
+
+            &:hover {
+                transition: all 1s;
+                position: relative;
+                top:-3px;
+            }
+        }
+    }
+
+
+    &__links__box {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        border-right: 1px solid rgb(165, 164, 164);
+    }
+
+    &__box__list {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 0 14px;
+        list-style-type: none;
+    }
+
+    &__box__item {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    &__linkess {
+        display: block;
+
+        &:hover {
+            transition: all 1s;
+            position: relative;
+            top:-3px;
+        }
+    }
+
+    &__images {
+        display: block;
+        margin-left: 20.5px;
+        border-radius: 50%;
+    }
+
+}
